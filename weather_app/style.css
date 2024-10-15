@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%; /* The width of the card is set to 90% of its container's width */
+    max-width: 470px; /* The maximum width of the card is capped at 470px */
+    background: linear-gradient(135deg, #00feba, #5b548a); /* The background is a linear gradient that transitions from #00feba to #5b548a at a 135-degree angle */
+    color: #fff; /* The text color inside the card is set to white */
+    margin: 100px auto 0; /* The card has a top margin of 100px, horizontally centered with auto, and no bottom margin */
+    border-radius: 20px; /* The corners of the card are rounded with a radius of 20px */
+    padding: 40px 35px; /* The card has 40px padding on the top and bottom, and 35px padding on the left and right */
+    text-align: center; /* The text inside the card is centered */
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-weight: 500;
+    font-size: 80px; /* Adjust the font size as needed */
+    margin: 0; /* Remove any default margins */
+    display: inline-block; /* Ensure the element is treated as a block for centering */
+    text-align: center; /* Center the text within the element */
+    width: 100%; /* Make the width 100% to ensure it takes up the full width of its container */
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+.welcome{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-top: -10px;
+}
